@@ -4,8 +4,6 @@
 #include "Circle.h"
 #include "Area.h"
 
-using namespace shapes;
-
 int main() {
     int choice;
     float side, base, height, radius;
@@ -17,7 +15,8 @@ int main() {
         std::cout << "3. Calculate the area of a circle" << std::endl;
         std::cout << "4. Quit" << std::endl;
         std::cout << "Enter your choice: ";
-        std::cin >>
+        std::cin >> choice;
     }
+    while(choice!=4);
     return 0;
 }

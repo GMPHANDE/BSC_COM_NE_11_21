@@ -21,7 +21,7 @@ cout << "Line 3 - a is not greater than b" << endl;
 }
 /* Let's change the values of a and b */ 
 c = 5; 
-d = 20; 
+int d = 20; 
 if ( c <= d ) { 
 cout << "Line 4 - c is either less than or equal to d" << endl; 
 }

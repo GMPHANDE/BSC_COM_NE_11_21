@@ -10,5 +10,5 @@ int main () {
  
  cout << g;
  
- return 0;ss
+ return 0;
 }
